@@ -1,1 +1,17 @@
 
+body{
+    background-color:#3654D9;
+    color:#000000
+}
+header{
+    background-color:#3a4885 ;
+    color:#312c2c;
+}
+section{
+    background-color: #6b7fd6;
+    color:#130c0c;
+}
+footer{
+    background-color: #2045eb;
+    color:#1a1414;
+}
