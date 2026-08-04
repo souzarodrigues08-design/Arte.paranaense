@@ -7,11 +7,17 @@ header{
     background-color:#3a4885 ;
     color:#312c2c;
 }
-section{
-    background-color: #6b7fd6;
-    color:#130c0c;
+
+
+h1 {
+    font-size:#302A29;
 }
-footer{
-    background-color: #2045eb;
-    color:#1a1414;
+
+h2 {
+    color: #102273;
+}
+
+p {
+    font-size:#050101 ;
+    line-height:333B59 ;
 }
