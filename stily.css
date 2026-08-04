@@ -2,10 +2,13 @@
 body{
     background-color:#656f9e;
     color:#000000
+    font-family:arial, sans-serif;
 }
 header{
     background-color:#565f8a ;
     color:#312c2c;
+    text-align: center;
+    padding: 30px;
 }
 
 
