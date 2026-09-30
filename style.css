@@ -1,19 +1,19 @@
-
-body{
-    background-color:#656f9e;
-    color:#000000;
+body {
+    background-color: #656f9e;
+    color: #000000;
     font-family: Arial, sans-serif;
 }
-header{
-    background-color:#565f8a ;
-    color:#312c2c;
+
+header {
+    background-color: #565f8a;
+    color: #312c2c;
     text-align: center;
     padding: 30px;
 }
 
 
 h1 {
-    font-size:#302A29;
+    font-size: #302A29;
 }
 
 h2 {
@@ -21,16 +21,18 @@ h2 {
 }
 
 p {
-    font-size:#050101 ;
-    line-height:333B59 ;
+    font-size: #050101;
+    line-height: 333B59;
 }
+
 nav {
     margin-top: 20px;
 }
+
 nav a {
-    color:#000000;
+    color: #000000;
     text-decoration: none;
-    background-color:white;
+    background-color: white;
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -42,30 +44,34 @@ nav a:hover {
     background-color: #000000;
 }
 
-main{
+main {
     width: 80%;
     margin: auto;
 }
-    section{
-background-color:white;
-margin: 20px;
-padding: 20px;
-border-radius: 12px;
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
 }
-img{
-width: 100%;
-max-width: 600px;
-display: block;
-margin: auto;
-border-radius: 12px;
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
 }
-figcaption{
-text-align: center;
-font-family: 14px;
-color: #000000;
-margin-top: 8px;
+
+figcaption {
+    text-align: center;
+    font-family: 14px;
+    color: #000000;
+    margin-top: 8px;
 }
-card {
+
+.card {
     background-color: #000000;
     padding: 15px;
     margin: 15px 0;
@@ -74,17 +80,36 @@ card {
 
 }
 
-card h3 {
+.card h3 {
     margin-top: 0;
 
 }
 
 footer {
     background-color: #000000;
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
+button {
+    background-color: rgb(25, 25, 26);
+    color: #222222;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
+button:hover {
+    background-color: #000000;
+
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+
+}
