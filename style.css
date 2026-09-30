@@ -1,11 +1,26 @@
+:root
+--cor-fundo:;
+--cor-texto:;
+--cor-principal:;
+--cor-secundaria:;
+--cor-card:;
+--cor-superficie:;
+--cor-rodape:;
+--cor-clara:;
+--cor-legenda:;
+
+
+
+
+
 body {
-    background-color: #656f9e;
-    color: #000000;
+    background-color: var(white);
+    color:var(--cor-texto);
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #565f8a;
+    background-color: var();
     color: #312c2c;
     text-align: center;
     padding: 30px;
@@ -17,7 +32,7 @@ h1 {
 }
 
 h2 {
-    color: #3f4a77;
+    color: var(--cor-principal);
 }
 
 p {
@@ -30,9 +45,9 @@ nav {
 }
 
 nav a {
-    color: #000000;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: white;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -67,7 +82,7 @@ img {
 figcaption {
     text-align: center;
     font-family: 14px;
-    color: #000000;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
@@ -103,7 +118,7 @@ button {
 }
 
 button:hover {
-    background-color: #000000;
+    background-color:var('');
 
 }
 
