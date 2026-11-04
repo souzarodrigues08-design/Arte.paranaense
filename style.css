@@ -1,14 +1,17 @@
-:root
---cor-fundo:;
---cor-texto:;
---cor-principal:;
---cor-secundaria:;
---cor-card:;
---cor-superficie:;
---cor-rodape:;
---cor-clara:;
---cor-legenda:;
+:root{
+  --cor-fundo:#f4f1ea;
+  --cor-texto:#222222;
+  --cor-principal:#315c3b;
+  --cor-secundaria:#8aa66f;
+  --cor-card:#315c3b;
+  --cor-superfice:white;
+  --cor-rodape:#5f7f52;
+  --cor-clara:white;
+  --cor-legenda:#555555;
+  --cor-fundo:#f4f1ea;
 
+}
+    */
 
 
 
@@ -28,8 +31,9 @@ header {
 
 
 h1 {
-    font-sizhttps://afrontejornalismo.com.br/sorver-o-mate/e: #302A29;
+    font-size: 36px;
 }
+
 
 h2 {
     color: var(--cor-principal);
@@ -127,4 +131,16 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 
+}
+
+.galeria {
+  display: felx;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards-curiosidades {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
